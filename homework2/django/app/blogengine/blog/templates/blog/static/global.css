@@ -1,0 +1,202 @@
+.bg{
+	background: url(bg.jpg) no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-size: 200%;
+}
+
+.template0{
+	position: absolute;
+	top: 5vh;
+	background: #C0C0C0;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.template1{
+	position: absolute;
+	top: 15vh;
+	background: #C0C0C0;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.template2{
+	position: absolute;
+	top: 45vh;
+	background: #C0C0C0;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.template3{
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.template4{
+	color: #800080;
+	margin-left: 8px;
+	margin-bottom: 0px;
+}
+
+.template5{
+	position: absolute;
+	top: 10vh;
+}
+
+.template6{
+	color: #800080;
+	margin-right: 20px;
+}
+
+.template7{
+	margin-bottom: 10px;
+	margin-right: 40px;
+}
+
+.template8{
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+.template9{
+	margin-left: 20px;
+}
+
+.template10{
+	margin-bottom: 20px;
+}
+
+.template11{
+	position: absolute;
+	top: 35vh;
+	background: #C0C0C0;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.template12{
+	position: absolute;
+	top: 55vh;
+	background: #C0C0C0;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.template13{
+	position: absolute;
+	top: 75vh;
+}
+
+.template14{
+	margin-left: 335px;
+	top: 45vh;
+}
+
+.template15{
+	margin-top: 10px;
+}
+
+.template16{
+	margin-top: 235px;
+}
+
+.template17{
+	position: absolute;
+	top: 60vh;
+	background: #C0C0C0;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.template18{
+	margin-top: 50px;
+}
+
+.template19{
+	position: absolute;
+	top: 78vh;
+	width: 100%;
+}
+
+.template20{
+	position: absolute;
+	top: 88vh;
+}
+
+.template21{
+	position: absolute;
+	top: 35vh;
+	background: #C0C0C0;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.template22{
+	position: absolute;
+	top: 27vh;
+	background: #C0C0C0;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.template23{
+	position: absolute;
+	top: 53vh;
+	background: #C0C0C0;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.spinner {
+  width: 50px;
+}
+.spinner input {
+  text-align: right;
+}
+.input-group-btn-vertical {
+  position: relative;
+  white-space: nowrap;
+  width: 1%;
+  vertical-align: middle;
+  display: table-cell;
+}
+.input-group-btn-vertical > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  padding: 9px;
+  margin-left: -1px;
+  position: relative;
+  border-radius: 0;
+}
+.input-group-btn-vertical > .btn:first-child {
+  border-top-right-radius: 4px;
+}
+.input-group-btn-vertical > .btn:last-child {
+  margin-top: -2px;
+  border-bottom-right-radius: 4px;
+}
+.input-group-btn-vertical i{
+  position: absolute;
+  top: 0;
+  left: 4px;
+}
+
+
+@media only screen and (max-width: 678px) {
+	.bg{
+		background-size: 300%;
+	}
+}

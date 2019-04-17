@@ -1,0 +1,68 @@
+{% extends 'blog/base_blog.html' %}
+
+{% block content %}
+<section class="container-fluid bg">
+  <section class="row justify-content-center">
+    <section class="col-4 col-sm-6 col-md-3">
+      <div class="containter template5">
+        <label class="template6"><h4>New Question</h4></label>
+      </div> 
+      <div class="container template1">
+        <div class="containter">
+          <div class="row">
+            <div class="col-sm-3">
+              <p class="mt-2">Title</p>
+              <p class="mt-2">Text</p>
+              <p class="template16">Tags</p>
+            </div>
+            <div class="col-sm">
+              <input type="title" class="form-control" id="InputTitle1"placeholder="Enter title">
+              <textarea rows="10" type="text" class="form-control mt-2" id="InputText1"placeholder="Enter text"></textarea>
+              <input type="tags" class="form-control mt-2" id="InputTags1"placeholder="Enter tags">
+              <small id="askHelp" class="form-text text-danger">Wrond data!</small>
+            </div>
+          </div>
+          <a class="btn btn-primary template14 mt-2" href="#" role="button">ASK!</a>
+        </div> 
+      </div>
+    </section>
+    <section class="col-4 col-sm-6 col-md-3">
+    </section>
+    <section class="col-4 col-sm-6 col-md-3">
+      <form class="form-container template1">
+        <div class="form-group">
+          <h3>Popular Tags</h3>
+        </div>
+        <div class="form-group">
+          <a href="#">perl</a>
+          <a href="#">python</a>
+          <a href="#">TechnoPark</a>
+        </div>
+        <div class="form-group">
+          <a href="#">MySQL</a>
+          <a href="#">django</a>
+        </div>
+        <div class="form-group">
+          <a href="#">Mail.Ru</a>
+          <a href="#">VoloShin</a>
+          <a href="#">FireFox</a>
+        </div>
+      </form>
+      <form class="form-container template2">
+        <div class="form-group">
+          <h3>Best Members</h3>
+        </div>
+        <div class="form-group">
+          <a href="#">Mr.BestMember</a>
+        </div>
+        <div class="form-group">
+          <a href="#">SilverName</a>
+        </div>
+        <div class="form-group">
+          <a href="#">TheThirdPosition</a>
+        </div>
+      </form>
+    </section>
+  </section>
+</section>
+{% endblock %}
